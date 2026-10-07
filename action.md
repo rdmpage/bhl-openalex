@@ -377,6 +377,47 @@ Beyond the feed:
 - **Issue Crossref DOIs where possible.** This is the only route that works today with no change by
   OpenAlex (part 241051). It is not available for most parts, which is why the asks below matter.
 
+#### Why BHL can't be treated like a journal's own OAI-PMH feed
+
+Journals that run their own OAI-PMH feed (typically Open Journal Systems) *do* get their content
+assigned to the journal in OpenAlex:
+
+1. **The feed is linked to the journal.** OpenAlex's source registry links each endpoint to one
+   source (`endpoint_to_source`). For a journal's own feed, that source is the journal, so every
+   record from the feed gets the journal as its source.
+2. **The journal opts in as a journal host.** The endpoint also needs an `is_journal_host` flag
+   (oxjob #1409). With it, `CreateWorksBase` (oxjob #805) marks the feed's records as
+   `publishedVersion` ("content on the journal's own endpoint is the version of record") and as
+   publisher copies (`host_type: publisher`) rather than repository copies.
+3. **These records rank like publisher copies.** They score 3–4, beat any repository copy, and win
+   the publisher-before-repository tie-break, all without ISSNs, `dc:source` or DOIs in the records.
+
+This does not work for BHL because the link is **one endpoint to one source**. BHL is one
+endpoint covering thousands of journals, so it is linked to "Biodiversity Heritage Library". The
+`is_journal_host` flag exists specifically to stop aggregators being treated as journals: OpenAlex
+added it after finding endpoints linked to a journal that were really multi-journal aggregators
+(two such links alone covered 12.7 million locations).
+
+**A possible workaround, not recommended in general.** OpenAlex registers an endpoint as a URL plus
+an optional OAI set (`pmh_set`). So the BHL URL with a per-journal set could be registered as a
+separate endpoint for each journal and linked to that journal.
+
+BHL's sets today are only `item`, `itemexternal`, `title`, `part` and `partexternal`, so BHL would
+first have to add a set per journal, for example `part:title8018` for the parts of *Great Basin
+naturalist memoirs*.
+
+The drawbacks:
+
+- **It may be refused.** BHL is not the journal's publisher, and the journal-host flag is meant to
+  exclude aggregators. OpenAlex may reasonably decline.
+- **It doesn't scale.** Every set is a separate daily harvest, so thousands of journals means
+  thousands of endpoints.
+- **Records would arrive twice,** once through the main BHL feed and once through the journal's
+  set. OpenAlex may treat these as duplicates or drop one of them.
+
+At most this might be worth discussing with OpenAlex for a few important journals where nothing
+else works. Matching on ISSN (ask B below) is the general solution.
+
 ### What to ask OpenAlex
 
 - **A. Fix the ranking.** A location whose source is a journal should outrank a repository copy
