@@ -1,0 +1,37 @@
+<OAI-PMH
+xmlns="http://www.openarchives.org/OAI/2.0/"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+<responseDate>2026-10-07T13:38:55Z</responseDate>
+<request verb="GetRecord" metadataPrefix="oai_dc" identifier="oai:biodiversitylibrary.org:part/175696">
+https://www.biodiversitylibrary.org/oai
+</request>
+<GetRecord>
+	<record>
+		<header>
+			<identifier>oai:biodiversitylibrary.org:part/175696</identifier>
+			<datestamp>2016-05-06T20:36:39Z</datestamp>
+			<setSpec>part</setSpec>
+		</header>
+		<metadata>
+<oai_dc:dc xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ &#13;&#10;&#9;&#9;&#9;&#9;http://www.openarchives.org/OAI/2.0/oai_dc.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<dc:title>Biosystematics of Australian mygalomorph spiders: descriptions of three new species of Teyl from Victoria (Araneae: Nemesiidae)</dc:title>
+<dc:creator>Main, Barbara York</dc:creator>
+<dc:description>Volume: 61</dc:description>
+<dc:description>Start Page: 47</dc:description>
+<dc:description>End Page: 55</dc:description>
+<dc:publisher>Melbourne : Museum Victoria , 1999-2010</dc:publisher>
+<dc:contributor>BioStor</dc:contributor>
+<dc:contributor>Museums Victoria</dc:contributor>
+<dc:date>2004</dc:date>
+<dc:type>Article</dc:type>
+<dc:type>text</dc:type>
+<dc:identifier>https://www.biodiversitylibrary.org/part/175696</dc:identifier>
+<dc:identifier>info:doi/10.24199/j.mmv.2004.61.3</dc:identifier>
+<dc:relation>https://www.biodiversitylibrary.org/item/192562</dc:relation>
+<dc:rights>In copyright. Digitized with the permission of the rights holder.</dc:rights>
+<dc:rights>http://creativecommons.org/licenses/by-nc-sa/4.0/</dc:rights>
+</oai_dc:dc>
+		</metadata>
+	</record>
+</GetRecord></OAI-PMH>

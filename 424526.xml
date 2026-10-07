@@ -1,0 +1,36 @@
+<OAI-PMH
+xmlns="http://www.openarchives.org/OAI/2.0/"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+<responseDate>2026-10-07T13:42:15Z</responseDate>
+<request verb="GetRecord" metadataPrefix="oai_dc" identifier="oai:biodiversitylibrary.org:part/424526">
+https://www.biodiversitylibrary.org/oai
+</request>
+<GetRecord>
+	<record>
+		<header>
+			<identifier>oai:biodiversitylibrary.org:part/424526</identifier>
+			<datestamp>2025-05-20T18:37:34Z</datestamp>
+			<setSpec>part</setSpec>
+		</header>
+		<metadata>
+<oai_dc:dc xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ &#13;&#10;&#9;&#9;&#9;&#9;http://www.openarchives.org/OAI/2.0/oai_dc.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<dc:title>Thrips (Insecta: Thysanoptera) of India- An Updated Checklist</dc:title>
+<dc:creator>Tyagi, Kaomud</dc:creator>
+<dc:creator>Kumar, Vikas</dc:creator>
+<dc:description>Volume: 7</dc:description>
+<dc:description>Start Page: 64</dc:description>
+<dc:description>End Page: 98</dc:description>
+<dc:publisher>Patiala, India Organisation for Conservation and Study of Biodiversity in collaboration with ANeT-India [2009]-</dc:publisher>
+<dc:contributor>BioStor</dc:contributor>
+<dc:date>2016-06-30</dc:date>
+<dc:type>Article</dc:type>
+<dc:type>text</dc:type>
+<dc:identifier>https://www.biodiversitylibrary.org/part/424526</dc:identifier>
+<dc:relation>https://www.biodiversitylibrary.org/item/343108</dc:relation>
+<dc:rights>In copyright. Digitized with the permission of the rights holder.</dc:rights>
+<dc:rights>https://creativecommons.org/licenses/by-nc-sa/4.0/</dc:rights>
+</oai_dc:dc>
+		</metadata>
+	</record>
+</GetRecord></OAI-PMH>

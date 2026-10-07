@@ -1,0 +1,38 @@
+<OAI-PMH
+xmlns="http://www.openarchives.org/OAI/2.0/"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+<responseDate>2026-10-07T14:44:53Z</responseDate>
+<request verb="GetRecord" metadataPrefix="oai_dc" identifier="oai:biodiversitylibrary.org:part/385640">
+https://www.biodiversitylibrary.org/oai
+</request>
+<GetRecord>
+	<record>
+		<header>
+			<identifier>oai:biodiversitylibrary.org:part/385640</identifier>
+			<datestamp>2024-05-01T18:45:10Z</datestamp>
+			<setSpec>part</setSpec>
+		</header>
+		<metadata>
+<oai_dc:dc xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ &#13;&#10;&#9;&#9;&#9;&#9;http://www.openarchives.org/OAI/2.0/oai_dc.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<dc:title>Skin morphology in larval, paedomorphic and metamorphosed Alpine newts, Triturus alpestris apuanus</dc:title>
+<dc:creator>Andreone, Franco</dc:creator>
+<dc:creator>Dore, Bruno</dc:creator>
+<dc:creator>Usai, Pasquale</dc:creator>
+<dc:creator>Paraninfo, Adriana</dc:creator>
+<dc:description>Volume: 11</dc:description>
+<dc:description>Start Page: 25</dc:description>
+<dc:description>End Page: 35</dc:description>
+<dc:publisher>Paris Museum national d&#39;histoire naturelle 1982-</dc:publisher>
+<dc:contributor>BioStor</dc:contributor>
+<dc:date>1993</dc:date>
+<dc:type>Article</dc:type>
+<dc:type>text</dc:type>
+<dc:identifier>https://www.biodiversitylibrary.org/part/385640</dc:identifier>
+<dc:relation>https://www.biodiversitylibrary.org/item/329870</dc:relation>
+<dc:rights>In copyright. Digitized with the permission of the rights holder.</dc:rights>
+<dc:rights>http://creativecommons.org/licenses/by-nc-sa/4.0/</dc:rights>
+</oai_dc:dc>
+		</metadata>
+	</record>
+</GetRecord></OAI-PMH>

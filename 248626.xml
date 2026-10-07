@@ -1,0 +1,35 @@
+<OAI-PMH
+xmlns="http://www.openarchives.org/OAI/2.0/"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+<responseDate>2026-10-05T16:52:36Z</responseDate>
+<request verb="GetRecord" metadataPrefix="oai_dc" identifier="oai:biodiversitylibrary.org:part/248626">
+https://www.biodiversitylibrary.org/oai
+</request>
+<GetRecord>
+	<record>
+		<header>
+			<identifier>oai:biodiversitylibrary.org:part/248626</identifier>
+			<datestamp>2017-11-16T18:32:03Z</datestamp>
+			<setSpec>part</setSpec>
+		</header>
+		<metadata>
+<oai_dc:dc xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ &#13;&#10;&#9;&#9;&#9;&#9;http://www.openarchives.org/OAI/2.0/oai_dc.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<dc:title>The Bark and Ambrosia Beetles of North and Central America (Coleoptera: Scolytidae), a Taxonomic Monograph</dc:title>
+<dc:creator>Wood, Stephen L.</dc:creator>
+<dc:description>Volume: 6</dc:description>
+<dc:description>Start Page: 1</dc:description>
+<dc:description>End Page: 1359</dc:description>
+<dc:publisher>[Provo, Utah], Brigham Young University, 1976-1992</dc:publisher>
+<dc:contributor>BioStor</dc:contributor>
+<dc:date>1982</dc:date>
+<dc:type>Article</dc:type>
+<dc:type>text</dc:type>
+<dc:identifier>https://www.biodiversitylibrary.org/part/248626</dc:identifier>
+<dc:relation>https://www.biodiversitylibrary.org/item/33485</dc:relation>
+<dc:rights>In copyright. Digitized with the permission of the rights holder.</dc:rights>
+<dc:rights>http://creativecommons.org/licenses/by-nc-sa/3.0/</dc:rights>
+</oai_dc:dc>
+		</metadata>
+	</record>
+</GetRecord></OAI-PMH>

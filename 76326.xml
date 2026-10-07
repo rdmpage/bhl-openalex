@@ -1,0 +1,35 @@
+<OAI-PMH
+xmlns="http://www.openarchives.org/OAI/2.0/"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+<responseDate>2026-10-07T13:26:33Z</responseDate>
+<request verb="GetRecord" metadataPrefix="oai_dc" identifier="oai:biodiversitylibrary.org:part/76326">
+https://www.biodiversitylibrary.org/oai
+</request>
+<GetRecord>
+	<record>
+		<header>
+			<identifier>oai:biodiversitylibrary.org:part/76326</identifier>
+			<datestamp>2013-08-27T02:16:47Z</datestamp>
+			<setSpec>part</setSpec>
+		</header>
+		<metadata>
+<oai_dc:dc xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ &#13;&#10;&#9;&#9;&#9;&#9;http://www.openarchives.org/OAI/2.0/oai_dc.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<dc:title>Descriptive catalogue of South African Decapod Crustacea</dc:title>
+<dc:creator>Barnard, K. H.</dc:creator>
+<dc:description>Volume: 38</dc:description>
+<dc:description>Start Page: 1</dc:description>
+<dc:description>End Page: 837</dc:description>
+<dc:publisher>Cape Town, South African Museum, 1898-2004</dc:publisher>
+<dc:contributor>BioStor</dc:contributor>
+<dc:date>1950</dc:date>
+<dc:type>Article</dc:type>
+<dc:type>text</dc:type>
+<dc:identifier>https://www.biodiversitylibrary.org/part/76326</dc:identifier>
+<dc:relation>https://www.biodiversitylibrary.org/item/126992</dc:relation>
+<dc:rights>In Copyright. Digitized with the permission of the rights holder.</dc:rights>
+<dc:rights>http://creativecommons.org/licenses/by-nc-sa/3.0/</dc:rights>
+</oai_dc:dc>
+		</metadata>
+	</record>
+</GetRecord></OAI-PMH>
